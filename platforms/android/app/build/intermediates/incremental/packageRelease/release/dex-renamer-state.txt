@@ -1,4 +1,4 @@
-#Mon Nov 26 09:45:33 BDT 2018
-base.0=D\:\\Codes\\Ionic\\SafeFood\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\release\\0
+#Wed Nov 28 14:26:47 BDT 2018
+base.0=E\:\\_Github\\safefood_app\\bfsa\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\release\\0
 path.0=classes.dex
 renamed.0=classes.dex

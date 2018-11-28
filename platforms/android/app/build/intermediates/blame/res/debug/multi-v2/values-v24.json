@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Codes\\Ionic\\SafeFood\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "E:\\_Github\\safefood_app\\bfsa\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\shuvr\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\0eebf254ee8f02b5bfbceebaaac7b9ec\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\arefin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\668de552e9d93f895d40415141404ea1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

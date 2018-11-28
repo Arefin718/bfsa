@@ -21,7 +21,15 @@ export class RestaurantProvider {
 
   searchRestaurantbyNameorId(keyWord){
     return new Promise(resolve => {
-      resolve(restaurants.filter(u=>u.title_english.toLowerCase().includes(keyWord.toLowerCase())));
+      resolve(restaurants.filter(u=>u.title_english.toLowerCase().includes(keyWord.toLowerCase()) ||
+	    u.title_bangla.toLowerCase().includes(keyWord.toLowerCase()) ||
+		 u.restaurant_id.includes(keyWord)||
+		 u.location_english.toLowerCase().includes(keyWord.toLowerCase())||
+		 u.location_bangla.toLowerCase().includes(keyWord.toLowerCase())
+	   
+		
+		
+	  ));
     });
 
     }

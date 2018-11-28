@@ -27,12 +27,14 @@ export class RestaurantDetailsPage {
 
   showPrompt() {
     const prompt = this.alertCtrl.create({
+      
       title: 'Complain',
-      message: "Enter your complain",
+      message: "Enter your Comment",
       inputs: [
         {
-          name: 'title',
-          placeholder: 'Title'
+          
+          name: 'comment',
+          placeholder: 'Comment'
         },
       ],
       buttons: [

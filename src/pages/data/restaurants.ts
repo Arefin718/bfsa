@@ -3,7 +3,7 @@ export default [
       "id":1,
       "restaurant_id":"DHK1230181115093959",
       "title_english":"Cafe Rio",
-      "title_bangla":"\u0995\u09c7 \u098f\u09ab \u09b8\u09bf",
+      "title_bangla":"ঢাকা",
       "location_english":"H-13, Sec-13, Sonargaon Janapath, Dhaka 1230",
       "division_english":"Dhaka",
       "city_english":"Dhaka",

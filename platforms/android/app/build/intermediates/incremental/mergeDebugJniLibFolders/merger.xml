@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\Codes\Ionic\SafeFood\platforms\android\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\Codes\Ionic\SafeFood\platforms\android\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="E:\_Github\safefood_app\bfsa\platforms\android\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="E:\_Github\safefood_app\bfsa\platforms\android\app\src\debug\jniLibs"/></dataSet></merger>
