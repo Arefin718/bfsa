@@ -1,0 +1,70 @@
+<ion-menu [content]="nav">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+  <ion-content padding>
+    <ion-list>
+
+
+      <button ion-item (click)="onLoad(rootPage)">
+        <ion-icon color="primary" ios="ios-home" md="md-home" item-left></ion-icon>
+        Home
+      </button>
+
+
+
+      <button ion-item (click)="onLoad(loginPage)">
+        <ion-icon color="primary" ios="ios-log-in" md="md-log-in" item-left></ion-icon>
+        Log in
+      </button>
+
+      <!--<button ion-item>-->
+        <!--<ion-icon color="primary"  ios="ios-log-out" md="md-log-out" item-left></ion-icon>-->
+        <!--Sign out-->
+      <!--</button>-->
+      <!---->
+
+      <button ion-item>
+        <ion-icon color="primary"  ios="ios-person" md="md-person" item-left></ion-icon>
+        User
+      </button>
+
+      <button ion-item (click)="onLoad(signUpPage)">
+        <ion-icon color="primary"  ios="ios-clipboard" md="md-clipboard" item-left></ion-icon>
+        Registration
+      </button>
+
+
+
+      <button ion-item (click)="onLoad(advancedSearchPage)">
+        <ion-icon color="primary"  ios="ios-search" md="md-search" item-left></ion-icon>
+        Advanced Search
+      </button>
+
+
+      <button ion-item (click)="onLoad(feedbackPage)">
+        <ion-icon color="primary"  ios="ios-undo" md="md-undo" item-left></ion-icon>
+        Feedback
+      </button>
+
+
+      <button ion-item (click)="onLoad(faqPage)">
+        <ion-icon color="primary"  ios="ios-help" md="md-help" item-left></ion-icon>
+        FAQ
+      </button>
+
+      <button ion-item (click)="onLoad(contactUsPage)">
+        <ion-icon color="primary"  ios="ios-repeat" md="md-repeat" item-left></ion-icon>
+        Contact us
+      </button>
+
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+
+<ion-nav [root]="rootPage" #nav></ion-nav>

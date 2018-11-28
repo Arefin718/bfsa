@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content padding>
+
+  <ion-list padding>
+
+    <ion-item>
+      <ion-label>Email</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Password</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-row>
+    <ion-col text-center>
+      <button ion-button full (click)="onGoToTabsPage()">Log in</button>
+    </ion-col>
+  </ion-row>
+
+
+  <ion-row padding>
+    <ion-col text-center>
+      <button (click)="onGoToSignUp()" ion-button clear>Create an account</button>
+    </ion-col>
+  </ion-row>
+
+</ion-content>
+
+
+

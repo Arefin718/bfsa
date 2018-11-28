@@ -1,0 +1,7 @@
+{
+  "name": "SafeFood",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
