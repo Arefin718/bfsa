@@ -10,4 +10,5 @@ import {NearbyPage} from "../nearby/nearby";
 export class TabsPage {
   searchPage = SearchPage;
   nearbyPage = NearbyPage;
+  
 }

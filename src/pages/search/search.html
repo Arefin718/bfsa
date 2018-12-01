@@ -23,24 +23,24 @@
 
 <form (submit)="onGoToRestaurantList()">
 
+<br>
 <br><br>
-<br><br>
-  <ion-list>
-    <ion-item>
-      <ion-input type="text" required="true" [(ngModel)]="keyword" name="keyword" placeholder="Name,  ID or Location"></ion-input>
+  <ion-list class="au-form" inset>
+    <ion-item id="rounded">
+      <ion-input  type="text" required="true" [(ngModel)]="keyword" name="keyword" placeholder="Name,  ID or Location"></ion-input>
     </ion-item>
-  </ion-list>
+  
 
   <ion-row>
     <ion-col text-center>
       <button type="submit" ion-button full>Search</button>
     </ion-col>
   </ion-row>
-
+</ion-list>
   <ion-row padding>
     <ion-col text-center>
-    <button ion-button icon-only outline large (click)="scan()">
-      <ion-icon color="dark"  ios="ios-barcode" md="md-qr-scanner"></ion-icon>
+    <button ion-button icon-only outline large (click)="scan()" large block>
+      <ion-icon color="dark"  ios="ios-barcode" md="md-qr-scanner"></ion-icon>Scan Qr
     </button>
     </ion-col>
   </ion-row>

@@ -124,7 +124,7 @@ var FaqPage = /** @class */ (function () {
     };
     FaqPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-faq',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\faq\faq.html"*/'<!--\n  Generated template for the FaqPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>FAQ</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n\n<ion-content padding class="body">\n  <b>What is the purpose of this app? </b> <br>\n\n  <p>Answer:</p><br>\n  <b>Meaning of Rating </b> <br>\n  <p>Answer: 3 star: Best</p><br>\n  <p>2 star: Good</p><br>\n  <p>1 star: Worst</p><br>\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\faq\faq.html"*/,
+            selector: 'page-faq',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\faq\faq.html"*/'<!--\n  Generated template for the FaqPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>FAQ</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n\n<ion-content padding class="body">\n  \n  <b>Meaning of Rating </b> <br>\n  <p>Answer:</p><br>\n  <p> A+(Green): 90+</p><br>\n  <p> A(Blue): 80-89 <ion-icon name="ios-arrow-round-up"></ion-icon></p><br>\n  <p> B(Orange): 55-79 <ion-icon name="ios-arrow-round-up"></ion-icon></p><br>\n  <p> C(Red): Below 55</p><br>\n\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\faq\faq.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], FaqPage);
@@ -169,7 +169,7 @@ var FeedbackPage = /** @class */ (function () {
     };
     FeedbackPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-feedback',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\feedback\feedback.html"*/'<!--\n  Generated template for the FeedbackPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Feedback</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="body">\n<ion-list>\n\n  <ion-item>\n    <ion-input type="text" placeholder="Name"></ion-input>\n  </ion-item>\n  <ion-item>\n    <ion-input type="text" placeholder="Email"></ion-input>\n  </ion-item>\n\n  <ion-item>\n    <ion-textarea placeholder="Feedback...."> </ion-textarea>\n  </ion-item>\n\n</ion-list>\n\n\n\n\n  <ion-row padding>\n    <ion-col text-center>\n      <button ion-button block>Send</button>\n    </ion-col>\n  </ion-row>\n\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\feedback\feedback.html"*/,
+            selector: 'page-feedback',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\feedback\feedback.html"*/'<!--\n  Generated template for the FeedbackPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Feedback</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="body">\n<ion-list class="">\n\n  <ion-item>\n    <ion-input type="text" placeholder="Name"></ion-input>\n  </ion-item>\n  <ion-item>\n    <ion-input type="text" placeholder="Email"></ion-input>\n  </ion-item>\n\n  <ion-item>\n    <ion-textarea placeholder="Feedback...."> </ion-textarea>\n  </ion-item>\n\n</ion-list>\n\n\n\n\n  <ion-row padding>\n    <ion-col text-center>\n      <button ion-button block>Send</button>\n    </ion-col>\n  </ion-row>\n\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\feedback\feedback.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], FeedbackPage);
@@ -245,7 +245,7 @@ var SearchPage = /** @class */ (function () {
     };
     SearchPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-search',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\search\search.html"*/'<!--\n  Generated template for the SearchPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Search Food Company</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n\n<ion-content padding class="body">\n\n<form (submit)="onGoToRestaurantList()">\n\n<br><br>\n<br><br>\n  <ion-list>\n    <ion-item>\n      <ion-input type="text" required="true" [(ngModel)]="keyword" name="keyword" placeholder="Name,  ID or Location"></ion-input>\n    </ion-item>\n  </ion-list>\n\n  <ion-row>\n    <ion-col text-center>\n      <button type="submit" ion-button full>Search</button>\n    </ion-col>\n  </ion-row>\n\n  <ion-row padding>\n    <ion-col text-center>\n    <button ion-button icon-only outline large (click)="scan()">\n      \n      <ion-icon color="dark"  ios="ios-barcode" md="md-qr-scanner"></ion-icon>\n      <ion-col>Scan</ion-col>\n    </button>\n    </ion-col>\n  </ion-row>\n\n</form>\n\n\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\search\search.html"*/,
+            selector: 'page-search',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\search\search.html"*/'<!--\n  Generated template for the SearchPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Search Food Company</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n\n<ion-content padding class="body">\n\n<form (submit)="onGoToRestaurantList()">\n\n<br>\n<br><br>\n  <ion-list class="au-form" inset>\n    <ion-item id="rounded">\n      <ion-input  type="text" required="true" [(ngModel)]="keyword" name="keyword" placeholder="Name,  ID or Location"></ion-input>\n    </ion-item>\n  \n\n  <ion-row>\n    <ion-col text-center>\n      <button type="submit" ion-button full>Search</button>\n    </ion-col>\n  </ion-row>\n</ion-list>\n  <ion-row padding>\n    <ion-col text-center>\n    <button ion-button icon-only outline large (click)="scan()" large block>\n      <ion-icon color="dark"  ios="ios-barcode" md="md-qr-scanner"></ion-icon>Scan Qr\n    </button>\n    </ion-col>\n  </ion-row>\n\n</form>\n\n\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\search\search.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_restaurant_restaurant__["a" /* RestaurantProvider */],
             __WEBPACK_IMPORTED_MODULE_4__ionic_native_barcode_scanner__["a" /* BarcodeScanner */]])
@@ -383,34 +383,6 @@ var NearbyPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 112:
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || Function("return this")() || (1,eval)("this");
-} catch(e) {
-	// This works if the window reference is available
-	if(typeof window === "object")
-		g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
-
 /***/ 123:
 /***/ (function(module, exports) {
 
@@ -461,15 +433,15 @@ var map = {
 		3
 	],
 	"../pages/restaurant-list/restaurant-list.module": [
-		297,
+		295,
 		2
 	],
 	"../pages/search/search.module": [
-		295,
+		296,
 		1
 	],
 	"../pages/signup/signup.module": [
-		296,
+		297,
 		0
 	]
 };
@@ -587,9 +559,9 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/nearby/nearby.module#NearbyPageModule', name: 'NearbyPage', segment: 'nearby', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/restaurant-details/restaurant-details.module#RestaurantDetailsPageModule', name: 'RestaurantDetailsPage', segment: 'restaurant-details', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/restaurant-list/restaurant-list.module#RestaurantListPageModule', name: 'RestaurantListPage', segment: 'restaurant-list', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/search/search.module#SearchPageModule', name: 'SearchPage', segment: 'search', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/restaurant-list/restaurant-list.module#RestaurantListPageModule', name: 'RestaurantListPage', segment: 'restaurant-list', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_15__angular_common_http__["b" /* HttpClientModule */]
@@ -844,7 +816,7 @@ var RestaurantDetailsPage = /** @class */ (function () {
     };
     RestaurantDetailsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-restaurant-details',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\restaurant-details\restaurant-details.html"*/'<!--\n  Generated template for the RestaurantDetailsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Food Company Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding class="body">\n          <ion-card>\n\n            <ion-card-title text-center>\n              {{restaurant.title_english}}\n            </ion-card-title>\n\n            <img src="https://www.joc.com/sites/default/files/field_feature_image/KFC_0.png"/>\n\n            <ion-card-content>\n<i class = "icon icon ion-happy-outline"></i>\n              <ion-label text-center="" color="primary">Location:  {{restaurant.location_english}}</ion-label>\n\n              <ion-label text-center="" color="primary">Company ID:  {{restaurant.company_id}}</ion-label>\n\n              <ion-label text-center="" color="primary">Category: {{restaurant.current_category}}</ion-label>\n\n              <ion-label text-center="" color="primary">Last Inspection: {{restaurant.last_inspection_date}}</ion-label>\n\n\n             \n\n<ion-row radio-group  [(ngModel)]="something"> \n  <ion-col>\n  <b>Rating:  </b>\n  </ion-col>\n  <ion-col>\n         <ion-item>\n            <ion-label>A+</ion-label>\n            <ion-radio mode="md" item-left value="A+"></ion-radio>\n       </ion-item>\n     </ion-col>\n    <ion-col>\n         <ion-item>\n            <ion-label>A</ion-label>\n            <ion-radio mode="md" item-left value="A"></ion-radio>\n       </ion-item>\n     </ion-col>\n\n    <ion-col>\n        <ion-item>\n            <ion-label>B</ion-label>\n            <ion-radio mode="md" item-left value="B"></ion-radio>\n       </ion-item>\n    </ion-col>\n\n    <ion-col>\n        <ion-item>\n            <ion-label>C</ion-label>\n            <ion-radio mode="md" item-left value="C"></ion-radio>\n       </ion-item>\n    </ion-col>\n\n</ion-row>\n\n\n              <button ion-button color="primary" block (click)="showPrompt()">Comment</button>\n \n\n            </ion-card-content>\n\n\n\n\n          </ion-card>\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\restaurant-details\restaurant-details.html"*/,
+            selector: 'page-restaurant-details',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\restaurant-details\restaurant-details.html"*/'<!--\n  Generated template for the RestaurantDetailsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Food Company Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding class="body">\n          <ion-card>\n\n            <ion-card-title text-center>\n              {{restaurant.title_english}}\n            </ion-card-title>\n\n            <img src="https://www.joc.com/sites/default/files/field_feature_image/KFC_0.png"/>\n\n            <ion-card-content>\n<i class = "icon icon ion-happy-outline"></i>\n              <ion-label text-center="" color="primary">Location:  {{restaurant.location_english}}</ion-label>\n\n              <ion-label text-center="" color="primary">Company ID:  {{restaurant.company_id}}</ion-label>\n\n              <ion-label text-center="" color="primary">Category: {{restaurant.current_category}}</ion-label>\n\n              <ion-label text-center="" color="primary">Last Inspection: {{restaurant.last_inspection_date}}</ion-label>\n\n\n             \n\n<ion-row radio-group  [(ngModel)]="something"> \n  <ion-col>\n  <b>Rating:  </b>\n  </ion-col>\n  <ion-col>\n         <ion-item>\n            <ion-label style="font-weight: bold; color: green;">A+</ion-label>\n            <ion-radio mode="md" item-left value="A+"></ion-radio>\n       </ion-item>\n     </ion-col>\n    <ion-col>\n         <ion-item>\n            <ion-label style="font-weight: bold; color: blue;">A</ion-label>\n            <ion-radio mode="md" item-left value="A"></ion-radio>\n       </ion-item>\n     </ion-col>\n\n    <ion-col>\n        <ion-item>\n            <ion-label style="font-weight: bold; color: orange;">B</ion-label>\n            <ion-radio mode="md" item-left value="B"></ion-radio>\n       </ion-item>\n    </ion-col>\n\n    <ion-col>\n        <ion-item>\n            <ion-label style="font-weight: bold; color: red;">C</ion-label>\n            <ion-radio mode="md" item-left value="C"></ion-radio>\n       </ion-item>\n    </ion-col>\n\n</ion-row>\n\n\n              <button ion-button color="primary" block (click)="showPrompt()">Comment</button>\n \n\n            </ion-card-content>\n\n\n\n\n          </ion-card>\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\restaurant-details\restaurant-details.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], RestaurantDetailsPage);
