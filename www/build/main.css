@@ -27967,3 +27967,83 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
+
+page-advanced-search .body {
+  background-image: url("../assets/imgs/background-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
+page-contact-us .body {
+  background-image: url("../assets/imgs/background-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
+page-faq .body {
+  background-image: url("../assets/imgs/background-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
+page-feedback .body {
+  background-image: url("../assets/imgs/background-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
+page-home .body {
+  background: #ADD8E6;
+  background-image: -webkit-gradient(linear, left top, right top, from(#CC95C0), color-stop(51%, #DBD4B4), to(#CC95C0));
+  background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4 51%, #CC95C0 100%);
+}
+
+page-home .btn-grad:hover {
+  background-position: right center;
+}
+
+page-login .body {
+  background-image: url("../assets/imgs/background-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
+page-nearby .body {
+  background-image: url("../assets/imgs/background-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
+page-restaurant-details .body {
+  background-image: url("../assets/imgs/background-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
+page-restaurant-list .body {
+  background-image: url("../assets/imgs/background-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
+page-search .body {
+  background-image: url("../assets/imgs/background-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
+page-signup .body {
+  background-image: url("../assets/imgs/background-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}

@@ -27967,3 +27967,112 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
+
+page-advanced-search .body {
+  background: #ADD8E6;
+  background-image: -webkit-gradient(linear, left top, right top, from(#CC95C0), color-stop(51%, #DBD4B4), to(#CC95C0));
+  background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4 51%, #CC95C0 100%);
+}
+
+page-advanced-search .btn-grad:hover {
+  background-position: right center;
+}
+
+page-contact-us .body {
+  background: #ADD8E6;
+  background-image: -webkit-gradient(linear, left top, right top, from(#CC95C0), color-stop(51%, #DBD4B4), to(#CC95C0));
+  background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4 51%, #CC95C0 100%);
+}
+
+page-contact-us .btn-grad:hover {
+  background-position: right center;
+}
+
+page-faq .body {
+  background: #ADD8E6;
+  background-image: -webkit-gradient(linear, left top, right top, from(#CC95C0), color-stop(51%, #DBD4B4), to(#CC95C0));
+  background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4 51%, #CC95C0 100%);
+}
+
+page-faq .btn-grad:hover {
+  background-position: right center;
+}
+
+page-feedback .body {
+  background: #ADD8E6;
+  background-image: -webkit-gradient(linear, left top, right top, from(#CC95C0), color-stop(51%, #DBD4B4), to(#CC95C0));
+  background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4 51%, #CC95C0 100%);
+}
+
+page-feedback .btn-grad:hover {
+  background-position: right center;
+}
+
+page-home .body {
+  background: #ADD8E6;
+  background-image: -webkit-gradient(linear, left top, right top, from(#CC95C0), color-stop(51%, #DBD4B4), to(#CC95C0));
+  background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4 51%, #CC95C0 100%);
+}
+
+page-home .btn-grad:hover {
+  background-position: right center;
+}
+
+page-login .body {
+  background: #ADD8E6;
+  background-image: -webkit-gradient(linear, left top, right top, from(#CC95C0), color-stop(51%, #DBD4B4), to(#CC95C0));
+  background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4 51%, #CC95C0 100%);
+}
+
+page-login .btn-grad:hover {
+  background-position: right center;
+}
+
+page-nearby .body {
+  background: #ADD8E6;
+  background-image: -webkit-gradient(linear, left top, right top, from(#CC95C0), color-stop(51%, #DBD4B4), to(#CC95C0));
+  background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4 51%, #CC95C0 100%);
+}
+
+page-nearby .btn-grad:hover {
+  background-position: right center;
+}
+
+page-restaurant-details .body {
+  background: #ADD8E6;
+  background-image: -webkit-gradient(linear, left top, right top, from(#CC95C0), color-stop(51%, #DBD4B4), to(#CC95C0));
+  background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4 51%, #CC95C0 100%);
+}
+
+page-restaurant-details .btn-grad:hover {
+  background-position: right center;
+}
+
+page-restaurant-list .body {
+  background: #ADD8E6;
+  background-image: -webkit-gradient(linear, left top, right top, from(#CC95C0), color-stop(51%, #DBD4B4), to(#CC95C0));
+  background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4 51%, #CC95C0 100%);
+}
+
+page-restaurant-list .btn-grad:hover {
+  background-position: right center;
+}
+
+page-search .body {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ECE9E6), color-stop(51%, #FFFFFF), to(#ECE9E6));
+  background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF 51%, #ECE9E6 100%);
+}
+
+page-search .btn-grad:hover {
+  background-position: right center;
+}
+
+page-signup .body {
+  background: #ADD8E6;
+  background-image: -webkit-gradient(linear, left top, right top, from(#CC95C0), color-stop(51%, #DBD4B4), to(#CC95C0));
+  background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4 51%, #CC95C0 100%);
+}
+
+page-signup .btn-grad:hover {
+  background-position: right center;
+}

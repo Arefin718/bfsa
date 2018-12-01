@@ -22,10 +22,10 @@ export class RestaurantProvider {
   searchRestaurantbyNameorId(keyWord){
     return new Promise(resolve => {
       resolve(restaurants.filter(u=>u.title_english.toLowerCase().includes(keyWord.toLowerCase()) ||
-	    u.title_bangla.toLowerCase().includes(keyWord.toLowerCase()) ||
-		 u.restaurant_id.includes(keyWord)||
+	    u.title_bangla.includes(keyWord.toLowerCase()) ||
+		 u.company_id.includes(keyWord)||
 		 u.location_english.toLowerCase().includes(keyWord.toLowerCase())||
-		 u.location_bangla.toLowerCase().includes(keyWord.toLowerCase())
+		 u.location_bangla.includes(keyWord)
 	   
 		
 		
@@ -37,7 +37,7 @@ export class RestaurantProvider {
 
   searchRestaurantbyId(restaurantId){
     return new Promise(resolve => {
-      resolve(restaurants.find(u=>u.restaurant_id==restaurantId));
+      resolve(restaurants.find(u=>u.company_id==restaurantId));
     });
 
   }

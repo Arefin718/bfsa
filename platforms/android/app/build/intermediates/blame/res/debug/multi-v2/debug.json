@@ -100,6 +100,21 @@
             ]
         },
         {
+            "outputFile": "E:\\_Github\\safefood_app\\bfsa\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-es-rUS_values-es-rUS.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\arefin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a8d73377f836e9521e9bff3e3cc935de\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "E:\\_Github\\safefood_app\\bfsa\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-el_values-el.arsc.flat",
             "map": [
                 {
@@ -134,21 +149,6 @@
                         "startOffsets": "9190",
                         "endColumns": "100",
                         "endOffsets": "9286"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "E:\\_Github\\safefood_app\\bfsa\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values-es-rUS_values-es-rUS.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\arefin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a8d73377f836e9521e9bff3e3cc935de\\res\\values-es-rUS\\values-es-rUS.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
                     }
                 }
             ]

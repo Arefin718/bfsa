@@ -19,17 +19,17 @@
 
 
 
-<ion-content padding >
+<ion-content padding class="body">
 
 <form (submit)="onGoToRestaurantList()">
 
-
+<br><br>
+<br><br>
   <ion-list>
     <ion-item>
-      <ion-input type="text" required="true" [(ngModel)]="keyword" name="keyword" placeholder="Name,Id or Location"></ion-input>
+      <ion-input type="text" required="true" [(ngModel)]="keyword" name="keyword" placeholder="Name,  ID or Location"></ion-input>
     </ion-item>
   </ion-list>
-
 
   <ion-row>
     <ion-col text-center>
@@ -40,7 +40,7 @@
   <ion-row padding>
     <ion-col text-center>
     <button ion-button icon-only outline large (click)="scan()">
-      <ion-icon color="dark"  ios="ios-barcode" md="md-barcode"></ion-icon>
+      <ion-icon color="dark"  ios="ios-barcode" md="md-qr-scanner"></ion-icon>
     </button>
     </ion-col>
   </ion-row>

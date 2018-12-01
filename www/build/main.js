@@ -34,7 +34,7 @@ var AdvancedSearchPage = /** @class */ (function () {
     };
     AdvancedSearchPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-advanced-search',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\advanced-search\advanced-search.html"*/'<!--\n  Generated template for the AdvancedSearchPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Advanced Search</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n\n<ion-content padding>\n  <ion-item>\n    <ion-label>Division</ion-label>\n    <ion-select >\n      <ion-option value="d">Dhaka</ion-option>\n      <ion-option value="c">Chittagong</ion-option>\n      <ion-option value="k">Khulna</ion-option>\n      <ion-option value="b">Barisal</ion-option>\n      <ion-option value="r">Rajshahi</ion-option>\n      <ion-option value="s">Sylet</ion-option>\n    </ion-select>\n  </ion-item>\n\n  <ion-item>\n    <ion-label>District</ion-label>\n    <ion-select >\n      <ion-option value="d">Dhaka</ion-option>\n      <ion-option value="c">Gazipur</ion-option>\n      <ion-option value="k">Munshigong</ion-option>\n      <ion-option value="b">Savar</ion-option>\n      <ion-option value="r">Tangail</ion-option>\n    </ion-select>\n  </ion-item>\n\n  <ion-item>\n    <ion-label>Thana</ion-label>\n    <ion-select >\n      <ion-option value="u">Uttara</ion-option>\n      <ion-option value="b">Badda</ion-option>\n      <ion-option value="ban">Banani</ion-option>\n      <ion-option value="g">Gulsan</ion-option>\n      <ion-option value="dhanmondi">Dhanmondi</ion-option>\n    </ion-select>\n  </ion-item>\n\n  <button ion-button color="primary" block >Search</button>\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\advanced-search\advanced-search.html"*/,
+            selector: 'page-advanced-search',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\advanced-search\advanced-search.html"*/'<!--\n  Generated template for the AdvancedSearchPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Advanced Search</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n\n<ion-content padding class="body">\n  <ion-item>\n    <ion-label>Division</ion-label>\n    <ion-select >\n      <ion-option value="d">Dhaka</ion-option>\n      <ion-option value="c">Chittagong</ion-option>\n      <ion-option value="k">Khulna</ion-option>\n      <ion-option value="b">Barisal</ion-option>\n      <ion-option value="r">Rajshahi</ion-option>\n      <ion-option value="s">Sylet</ion-option>\n    </ion-select>\n  </ion-item>\n\n  <ion-item>\n    <ion-label>District</ion-label>\n    <ion-select >\n      <ion-option value="d">Dhaka</ion-option>\n      <ion-option value="c">Gazipur</ion-option>\n      <ion-option value="k">Munshigong</ion-option>\n      <ion-option value="b">Savar</ion-option>\n      <ion-option value="r">Tangail</ion-option>\n    </ion-select>\n  </ion-item>\n\n  <ion-item>\n    <ion-label>Thana</ion-label>\n    <ion-select >\n      <ion-option value="u">Uttara</ion-option>\n      <ion-option value="b">Badda</ion-option>\n      <ion-option value="ban">Banani</ion-option>\n      <ion-option value="g">Gulsan</ion-option>\n      <ion-option value="dhanmondi">Dhanmondi</ion-option>\n    </ion-select>\n  </ion-item>\n\n  <button ion-button color="primary" block >Search</button>\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\advanced-search\advanced-search.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], AdvancedSearchPage);
@@ -79,7 +79,7 @@ var ContactUsPage = /** @class */ (function () {
     };
     ContactUsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-contact-us',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\contact-us\contact-us.html"*/'<!--\n  Generated template for the ContactUsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Contact Us</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <b>Address: </b><span>Level 12, Probashi Kalyan Bhaban, 71-72. Eskaton Garden\nDhaka, Bangladesh</span> <br>\n  <b>Phone: </b><span>0551-38609</span> <br>\n  <b>Email: </b><span>info@bfsa.gov.bd</span> <br>\n  <b>Website: </b><a href="http://www.bfsa.gov.bd/">www.bfsa.gov.bd/</a> <br>\n\n\n  <button ion-button icon-only>\n    <ion-icon name="mail"></ion-icon>\n  </button>\n\n  <button ion-button icon-only>\n    <ion-icon name="call"></ion-icon>\n  </button>\n\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\contact-us\contact-us.html"*/,
+            selector: 'page-contact-us',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\contact-us\contact-us.html"*/'<!--\n  Generated template for the ContactUsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Contact Us</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="body">\n  <b>Address: </b><span>Level 12, Probashi Kalyan Bhaban, 71-72. Eskaton Garden\nDhaka, Bangladesh</span> <br>\n  <b>Phone: </b><span>0551-38609</span> <br>\n  <b>Email: </b><span>info@bfsa.gov.bd</span> <br>\n  <b>Website: </b><a href="http://www.bfsa.gov.bd/">www.bfsa.gov.bd/</a> <br>\n\n\n  <button ion-button icon-only>\n    <ion-icon name="mail"></ion-icon>\n  </button>\n\n  <button ion-button icon-only>\n    <ion-icon name="call"></ion-icon>\n  </button>\n\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\contact-us\contact-us.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], ContactUsPage);
@@ -124,7 +124,7 @@ var FaqPage = /** @class */ (function () {
     };
     FaqPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-faq',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\faq\faq.html"*/'<!--\n  Generated template for the FaqPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>FAQ</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n\n<ion-content padding>\n  <b>What is the purpose of this app? </b> <br>\n\n  <p>Answer:</p><br>\n  <b>Meaning of Rating </b> <br>\n  <p>Answer: 3 star: Best</p><br>\n  <p>2 star: Good</p><br>\n  <p>1 star: Worst</p><br>\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\faq\faq.html"*/,
+            selector: 'page-faq',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\faq\faq.html"*/'<!--\n  Generated template for the FaqPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>FAQ</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n\n<ion-content padding class="body">\n  <b>What is the purpose of this app? </b> <br>\n\n  <p>Answer:</p><br>\n  <b>Meaning of Rating </b> <br>\n  <p>Answer: 3 star: Best</p><br>\n  <p>2 star: Good</p><br>\n  <p>1 star: Worst</p><br>\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\faq\faq.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], FaqPage);
@@ -169,7 +169,7 @@ var FeedbackPage = /** @class */ (function () {
     };
     FeedbackPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-feedback',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\feedback\feedback.html"*/'<!--\n  Generated template for the FeedbackPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Feedback</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n<ion-list>\n\n  <ion-item>\n    <ion-input type="text" placeholder="Name"></ion-input>\n  </ion-item>\n  <ion-item>\n    <ion-input type="text" placeholder="Email"></ion-input>\n  </ion-item>\n\n  <ion-item>\n    <ion-textarea placeholder="Feedback...."> </ion-textarea>\n  </ion-item>\n\n</ion-list>\n\n\n\n\n  <ion-row padding>\n    <ion-col text-center>\n      <button ion-button block>Send</button>\n    </ion-col>\n  </ion-row>\n\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\feedback\feedback.html"*/,
+            selector: 'page-feedback',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\feedback\feedback.html"*/'<!--\n  Generated template for the FeedbackPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Feedback</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="body">\n<ion-list>\n\n  <ion-item>\n    <ion-input type="text" placeholder="Name"></ion-input>\n  </ion-item>\n  <ion-item>\n    <ion-input type="text" placeholder="Email"></ion-input>\n  </ion-item>\n\n  <ion-item>\n    <ion-textarea placeholder="Feedback...."> </ion-textarea>\n  </ion-item>\n\n</ion-list>\n\n\n\n\n  <ion-row padding>\n    <ion-col text-center>\n      <button ion-button block>Send</button>\n    </ion-col>\n  </ion-row>\n\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\feedback\feedback.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], FeedbackPage);
@@ -184,74 +184,10 @@ var FeedbackPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NearbyPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_restaurant_restaurant__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__restaurant_details_restaurant_details__ = __webpack_require__(41);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Generated class for the NearbyPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var NearbyPage = /** @class */ (function () {
-    function NearbyPage(navCtrl, navParams, restaurantProvider) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.restaurantProvider = restaurantProvider;
-    }
-    NearbyPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad NearbyPage');
-    };
-    NearbyPage.prototype.ngOnInit = function () {
-        var _this = this;
-        this.restaurantProvider.findNearbyRestaurant().then(function (data) {
-            _this.nearbyRestaurants = data;
-        });
-    };
-    NearbyPage.prototype.onGoToRestaurantDetails = function (restaurantId) {
-        var _this = this;
-        this.restaurantProvider.searchRestaurantbyId(restaurantId).then(function (data) {
-            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__restaurant_details_restaurant_details__["a" /* RestaurantDetailsPage */], {
-                rest: data
-            });
-        });
-    };
-    NearbyPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-nearby',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\nearby\nearby.html"*/'<!--\n  Generated template for the NearbyPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Nearby Food Companies</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let rest of nearbyRestaurants" (click)="onGoToRestaurantDetails(rest.restaurant_id)">\n      <ion-thumbnail item-start>\n        <img src="https://cbsnews3.cbsistatic.com/hub/i/r/2018/03/07/481a9418-c3c8-492e-8e92-d1e6ec821075/crop/316x284+89+74/resize/270x/47b7fc47127620982695ad69887be491/sonic-burger.jpg">\n      </ion-thumbnail>\n      <h2>{{rest.title_english}}</h2>\n      <p>Location: {{rest.location_english}}</p>\n\n\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'a+\'">\n        <ion-icon color="secondary" ios="" md="">A+</ion-icon>\n      </li>\n\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'a\'">\n        <ion-icon color="secondary" ios="" md="">A</ion-icon>\n      </li>\n\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'b\'">\n        <ion-icon color="yellow" ios="" md="">B</ion-icon>\n      </li>\n\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'c\'">\n        <ion-icon color="danger" ios="" md="">C</ion-icon>\n      </li>\n\n\n    </button>\n\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\nearby\nearby.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_restaurant_restaurant__["a" /* RestaurantProvider */]])
-    ], NearbyPage);
-    return NearbyPage;
-}());
-
-//# sourceMappingURL=nearby.js.map
-
-/***/ }),
-
-/***/ 110:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SearchPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__restaurant_list_restaurant_list__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__restaurant_list_restaurant_list__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_restaurant_restaurant__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_barcode_scanner__ = __webpack_require__(167);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__restaurant_details_restaurant_details__ = __webpack_require__(41);
@@ -309,7 +245,7 @@ var SearchPage = /** @class */ (function () {
     };
     SearchPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-search',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\search\search.html"*/'<!--\n  Generated template for the SearchPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Search Food Company</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n\n<ion-content padding >\n\n<form (submit)="onGoToRestaurantList()">\n\n\n  <ion-list>\n    <ion-item>\n      <ion-input type="text" required="true" [(ngModel)]="keyword" name="keyword" placeholder="Name,Id or Location"></ion-input>\n    </ion-item>\n  </ion-list>\n\n\n  <ion-row>\n    <ion-col text-center>\n      <button type="submit" ion-button full>Search</button>\n    </ion-col>\n  </ion-row>\n\n  <ion-row padding>\n    <ion-col text-center>\n    <button ion-button icon-only outline large (click)="scan()">\n      <ion-icon color="dark"  ios="ios-barcode" md="md-barcode"></ion-icon>\n    </button>\n    </ion-col>\n  </ion-row>\n\n</form>\n\n\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\search\search.html"*/,
+            selector: 'page-search',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\search\search.html"*/'<!--\n  Generated template for the SearchPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Search Food Company</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n\n<ion-content padding class="body">\n\n<form (submit)="onGoToRestaurantList()">\n\n<br><br>\n<br><br>\n  <ion-list>\n    <ion-item>\n      <ion-input type="text" required="true" [(ngModel)]="keyword" name="keyword" placeholder="Name,  ID or Location"></ion-input>\n    </ion-item>\n  </ion-list>\n\n  <ion-row>\n    <ion-col text-center>\n      <button type="submit" ion-button full>Search</button>\n    </ion-col>\n  </ion-row>\n\n  <ion-row padding>\n    <ion-col text-center>\n    <button ion-button icon-only outline large (click)="scan()">\n      \n      <ion-icon color="dark"  ios="ios-barcode" md="md-qr-scanner"></ion-icon>\n      <ion-col>Scan</ion-col>\n    </button>\n    </ion-col>\n  </ion-row>\n\n</form>\n\n\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\search\search.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_restaurant_restaurant__["a" /* RestaurantProvider */],
             __WEBPACK_IMPORTED_MODULE_4__ionic_native_barcode_scanner__["a" /* BarcodeScanner */]])
@@ -321,7 +257,7 @@ var SearchPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 111:
+/***/ 110:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -372,7 +308,7 @@ var RestaurantListPage = /** @class */ (function () {
     };
     RestaurantListPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-restaurant-list',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\restaurant-list\restaurant-list.html"*/'<!--\n  Generated template for the RestaurantListPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Food companies</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let rest of restaurants" (click)="onGoToRestaurantDetails(rest.restaurant_id)">\n      <ion-thumbnail item-start>\n        <img src="https://cbsnews3.cbsistatic.com/hub/i/r/2018/03/07/481a9418-c3c8-492e-8e92-d1e6ec821075/crop/316x284+89+74/resize/270x/47b7fc47127620982695ad69887be491/sonic-burger.jpg">\n      </ion-thumbnail>\n      <h2>{{rest.title_english}}</h2>\n      <p>Location: {{rest.location_english}}</p>\n\n\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'a+\'">\n        <ion-icon color="secondary" ios="" md="">A+</ion-icon>\n      </li>\n\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'a\'">\n        <ion-icon color="secondary" ios="" md="">A</ion-icon>\n      </li>\n\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'b\'">\n        <ion-icon color="yellow" ios="" md="">B</ion-icon>\n      </li>\n\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'c\'">\n        <ion-icon color="danger" ios="" md="">C</ion-icon>\n      </li>\n\n    </button>\n\n    <ion-item *ngIf="!restaurants" text-center>\n      <ion-icon color="danger" ios="" md="">No food company found!</ion-icon>\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\restaurant-list\restaurant-list.html"*/,
+            selector: 'page-restaurant-list',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\restaurant-list\restaurant-list.html"*/'<!--\n  Generated template for the RestaurantListPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Food companies</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding class="body">\n\n  <ion-list>\n\n    <button ion-item *ngFor="let rest of restaurants" (click)="onGoToRestaurantDetails(rest.company_id)">\n      <ion-thumbnail item-start>\n        <img src="" alt="img">\n      </ion-thumbnail>\n      <h2>{{rest.title_english}}</h2>\n      <p>Location: {{rest.location_english}}</p>\n\n<!--\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'a+\'">\n        <ion-icon color="secondary" ios="" md="">A+</ion-icon>\n      </li>\n\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'a\'">\n        <ion-icon color="secondary" ios="" md="">A</ion-icon>\n      </li>\n\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'b\'">\n        <ion-icon color="yellow" ios="" md="">B</ion-icon>\n      </li>\n\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'c\'">\n        <ion-icon color="danger" ios="" md="">C</ion-icon>\n      </li>\n-->\n    </button>\n\n    <ion-item *ngIf="!restaurants" text-center>\n      <ion-icon color="danger" ios="" md="">No food company found!</ion-icon>\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\restaurant-list\restaurant-list.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_restaurant_restaurant__["a" /* RestaurantProvider */]])
     ], RestaurantListPage);
@@ -380,6 +316,70 @@ var RestaurantListPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=restaurant-list.js.map
+
+/***/ }),
+
+/***/ 111:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NearbyPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_restaurant_restaurant__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__restaurant_details_restaurant_details__ = __webpack_require__(41);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the NearbyPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var NearbyPage = /** @class */ (function () {
+    function NearbyPage(navCtrl, navParams, restaurantProvider) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.restaurantProvider = restaurantProvider;
+    }
+    NearbyPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad NearbyPage');
+    };
+    NearbyPage.prototype.ngOnInit = function () {
+        var _this = this;
+        this.restaurantProvider.findNearbyRestaurant().then(function (data) {
+            _this.nearbyRestaurants = data;
+        });
+    };
+    NearbyPage.prototype.onGoToRestaurantDetails = function (restaurantId) {
+        var _this = this;
+        this.restaurantProvider.searchRestaurantbyId(restaurantId).then(function (data) {
+            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__restaurant_details_restaurant_details__["a" /* RestaurantDetailsPage */], {
+                rest: data
+            });
+        });
+    };
+    NearbyPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-nearby',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\nearby\nearby.html"*/'<!--\n  Generated template for the NearbyPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Nearby Food Companies</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n\n\n<ion-content padding class="body">\n\n  <ion-list>\n\n    <button ion-item *ngFor="let rest of nearbyRestaurants" (click)="onGoToRestaurantDetails(rest.company_id)">\n      <ion-thumbnail item-start>\n        <img src="https://cbsnews3.cbsistatic.com/hub/i/r/2018/03/07/481a9418-c3c8-492e-8e92-d1e6ec821075/crop/316x284+89+74/resize/270x/47b7fc47127620982695ad69887be491/sonic-burger.jpg">\n      </ion-thumbnail>\n      <h2>{{rest.title_english}}</h2>\n      <p>Location: {{rest.location_english}}</p>\n\n<!--\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'a+\'">\n        <ion-icon color="secondary" ios="" md="">A+</ion-icon>\n      </li>\n\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'a\'">\n        <ion-icon color="secondary" ios="" md="">A</ion-icon>\n      </li>\n\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'b\'">\n        <ion-icon color="yellow" ios="" md="">B</ion-icon>\n      </li>\n\n      <li item-end  *ngIf="rest.current_category.toLowerCase()== \'c\'">\n        <ion-icon color="danger" ios="" md="">C</ion-icon>\n      </li>\n-->\n\n    </button>\n\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\nearby\nearby.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_restaurant_restaurant__["a" /* RestaurantProvider */]])
+    ], NearbyPage);
+    return NearbyPage;
+}());
+
+//# sourceMappingURL=nearby.js.map
 
 /***/ }),
 
@@ -449,7 +449,7 @@ var map = {
 		6
 	],
 	"../pages/login/login.module": [
-		294,
+		292,
 		5
 	],
 	"../pages/nearby/nearby.module": [
@@ -457,15 +457,15 @@ var map = {
 		4
 	],
 	"../pages/restaurant-details/restaurant-details.module": [
-		292,
+		294,
 		3
 	],
 	"../pages/restaurant-list/restaurant-list.module": [
-		295,
+		297,
 		2
 	],
 	"../pages/search/search.module": [
-		297,
+		295,
 		1
 	],
 	"../pages/signup/signup.module": [
@@ -517,10 +517,10 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(287);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_login_login__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_signup_signup__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_nearby_nearby__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_search_search__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_nearby_nearby__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_search_search__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_tabs_tabs__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_restaurant_list_restaurant_list__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_restaurant_list_restaurant_list__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_restaurant_details_restaurant_details__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_restaurant_restaurant__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__angular_common_http__ = __webpack_require__(166);
@@ -584,12 +584,12 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/contact-us/contact-us.module#ContactUsPageModule', name: 'ContactUsPage', segment: 'contact-us', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/faq/faq.module#FaqPageModule', name: 'FaqPage', segment: 'faq', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/feedback/feedback.module#FeedbackPageModule', name: 'FeedbackPage', segment: 'feedback', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/restaurant-details/restaurant-details.module#RestaurantDetailsPageModule', name: 'RestaurantDetailsPage', segment: 'restaurant-details', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/nearby/nearby.module#NearbyPageModule', name: 'NearbyPage', segment: 'nearby', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/restaurant-list/restaurant-list.module#RestaurantListPageModule', name: 'RestaurantListPage', segment: 'restaurant-list', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/nearby/nearby.module#NearbyPageModule', name: 'NearbyPage', segment: 'nearby', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/restaurant-details/restaurant-details.module#RestaurantDetailsPageModule', name: 'RestaurantDetailsPage', segment: 'restaurant-details', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/search/search.module#SearchPageModule', name: 'SearchPage', segment: 'search', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/search/search.module#SearchPageModule', name: 'SearchPage', segment: 'search', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/restaurant-list/restaurant-list.module#RestaurantListPageModule', name: 'RestaurantListPage', segment: 'restaurant-list', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_15__angular_common_http__["b" /* HttpClientModule */]
@@ -632,106 +632,42 @@ var AppModule = /** @class */ (function () {
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ([
-    {
-        "id": 1,
-        "restaurant_id": "DHK1230181115093959",
-        "title_english": "Cafe Rio",
-        "title_bangla": "ঢাকা",
-        "location_english": "H-13, Sec-13, Sonargaon Janapath, Dhaka 1230",
-        "division_english": "Dhaka",
-        "city_english": "Dhaka",
-        "thana_upazila_english": "Uttara",
-        "location_bangla": "\u0989\u09a4\u09cd\u09a4\u09be\u09b0\u09be",
-        "division_bangla": null,
-        "city_bangla": null,
-        "thana_upazila_bangla": null,
-        "zip_code": "1230",
-        "latitude": "23.8741894",
-        "longitude": "90.39184829999999",
-        "owner_name": "Hamid Khan",
-        "owner_contact_number": "01912345678",
-        "current_category": "A",
-        "last_inspection_date": "2018-08-15",
-        "inspected_by": "Salam",
-        "status": 1,
-        "created_at": "2018-11-15 03:39:59",
-        "updated_at": "2018-11-21 12:17:51"
-    },
-    {
-        "id": 2,
-        "restaurant_id": "DHK1230181115102858",
-        "title_english": "Sultan's Dine",
-        "title_bangla": "\u09ac\u09bf\u098f\u09ab\u09b8\u09bf",
-        "location_english": "Plot No.:1, Sector 1, Uttara Tower, Jashimuddin Road, Uttara",
-        "division_english": "Dhaka",
-        "city_english": "Dhaka",
-        "thana_upazila_english": "Uttara",
-        "location_bangla": "\u0989\u09a4\u09cd\u09a4\u09be\u09b0\u09be",
-        "division_bangla": null,
-        "city_bangla": null,
-        "thana_upazila_bangla": null,
-        "zip_code": "1230",
-        "latitude": "23.8609952",
-        "longitude": "90.3997316",
-        "owner_name": "Sadik Ahmed",
-        "owner_contact_number": "01812345678",
-        "current_category": "C",
-        "last_inspection_date": "2018-06-04",
-        "inspected_by": "Sayed Sabbir",
-        "status": 1,
-        "created_at": "2018-11-15 04:28:58",
-        "updated_at": "2018-11-15 04:28:58"
-    },
-    {
-        "id": 3,
-        "restaurant_id": "DHK1230181121090517",
-        "title_english": "kfc",
-        "title_bangla": "\u0993\u09df\u09be\u09a8",
-        "location_english": "Uttara",
-        "division_english": "Dhaka",
-        "city_english": "Dhaka",
-        "thana_upazila_english": "Uttara",
-        "location_bangla": "\u0989\u09a4\u09cd\u09a4\u09be\u09b0\u09be",
-        "division_bangla": null,
-        "city_bangla": null,
-        "thana_upazila_bangla": null,
-        "zip_code": "1230",
-        "latitude": null,
-        "longitude": null,
-        "owner_name": "Tanvir Islam",
-        "owner_contact_number": "01912345679",
-        "current_category": "B",
-        "last_inspection_date": "2018-11-01",
-        "inspected_by": "Aslam Haque",
-        "status": 1,
-        "created_at": "2018-11-21 09:05:17",
-        "updated_at": "2018-11-21 10:04:12"
-    },
-    {
-        "id": 4,
-        "restaurant_id": "DHK78445181121023628",
-        "title_english": "Yellow Cafe",
-        "title_bangla": "Yellow Cafe",
-        "location_english": "Dhaka",
-        "division_english": "Dhaka",
-        "city_english": "Dhaka",
-        "thana_upazila_english": "Uttara",
-        "location_bangla": "Uttara",
-        "division_bangla": null,
-        "city_bangla": null,
-        "thana_upazila_bangla": null,
-        "zip_code": "78445",
-        "latitude": null,
-        "longitude": null,
-        "owner_name": "Jiisan Khan",
-        "owner_contact_number": "01744554545",
-        "current_category": "C",
-        "last_inspection_date": "2018-11-28",
-        "inspected_by": "Rahim",
-        "status": 1,
-        "created_at": "2018-11-21 14:36:28",
-        "updated_at": "2018-11-21 14:36:28"
-    }
+    { "id": "1", "company_id": "BFSA181128041139", "title_english": "Hirajhil Restora & Hotel", "title_bangla": "হীরাঝিল রেস্তোরাঁ ও হোটেল", "location_english": "22,Motijheel C\/A", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Motijheel", "location_bangla": "২২, মতিঝিল বা\/এ", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": null, "latitude": null, "longitude": null, "owner_name": "1000", "owner_contact_number": "01670803220", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 16:37:40", "updated_at": "2018-11-28 16:37:40" },
+    { "id": "2", "company_id": "BFSA181128041150", "title_english": "Khan's Hotel & Restaurant", "title_bangla": "খানস হোটেল এন্ড রেস্টুরেন্ট", "location_english": "22,Motijheel C\/A", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Motijheel", "location_bangla": "২২, মতিঝিল বা\/এ", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01726250019", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 16:42:50", "updated_at": "2018-11-28 16:42:50" },
+    { "id": "3", "company_id": "BFSA181128041126", "title_english": "New Café Jamuna Restora", "title_bangla": "নিউ ক্যাফে যমুনা রেস্তরা", "location_english": "71,Motijheel C\/A", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Motijheel", "location_bangla": "৭১, মতিঝিল বা\/এ", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01673683200", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 16:59:26", "updated_at": "2018-11-28 16:59:26" },
+    { "id": "4", "company_id": "BFSA181128051135", "title_english": "Café Mawla Hotel", "title_bangla": "ক্যাফে মাওলা হোটেল", "location_english": "9\/A,Toyenbi Circular Road", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Motijheel", "location_bangla": "৯\/এ, টোয়েনবাড়ি সার্কুলার রোড", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01618132323", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:02:35", "updated_at": "2018-11-28 17:02:35" },
+    { "id": "5", "company_id": "BFSA181128051139", "title_english": "Shah Chondropui Hotel & Restaurant", "title_bangla": "শাহ চন্দ্রপুরী হোটেল ও রেস্টুরেন্ট", "location_english": "28,Rajuk Avenue", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Motijheel", "location_bangla": "২৮, রাজউক এভিনিও", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01712629396", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:16:39", "updated_at": "2018-11-28 17:16:39" },
+    { "id": "6", "company_id": "BFSA181128051110", "title_english": "Dawate Mejban Restaurant", "title_bangla": "দাওয়াতে মেজবান রেস্টুরেন্ট", "location_english": "3,DIT Avenue Extension", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Motijheel", "location_bangla": "৩,ডি আই টি এভিনিও এক্সটেনশন", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01710223391", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:18:10", "updated_at": "2018-11-28 17:18:10" },
+    { "id": "7", "company_id": "BFSA181128051132", "title_english": "Shah Chondropui Hotel & Restaurant", "title_bangla": "শাহ চন্দ্রপুরী হোটেল ও রেস্টুরেন্ট", "location_english": "12\/A,Dilkusha C\/A", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Motijheel", "location_bangla": "১২\/এ মতিঝিল বা\/এ", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01745863112", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:20:32", "updated_at": "2018-11-28 17:20:32" },
+    { "id": "8", "company_id": "BFSA181128051138", "title_english": "Café Motijheel Hotel & Restaurant", "title_bangla": "ক্যাফে মতিঝিল হোটেল ও রেস্টুরেন্ট", "location_english": "12\/A,Dilkusha C\/A", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Motijheel", "location_bangla": "১২\/এ দিলকুশা বা\/এ", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01711011409", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:22:38", "updated_at": "2018-11-28 17:22:38" },
+    { "id": "9", "company_id": "BFSA181128051143", "title_english": "Café Siddik Hotel & Restaurant", "title_bangla": "ক্যাফে সিদ্দিক হোটেল ও রেস্টুরেন্ট", "location_english": "Dilkusha C\/A", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Motijheel", "location_bangla": "দিলকুশা বা\/এ", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01943040851", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:25:43", "updated_at": "2018-11-28 17:25:43" },
+    { "id": "10", "company_id": "BFSA181128051106", "title_english": "Café Dilkusha Hotel & Restaurant", "title_bangla": "ক্যাফে দিলকুশা হোটেল ও রেস্টুরেন্ট", "location_english": "22\/A,Dilkusha C\/A", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Motijheel", "location_bangla": "২২, দিলকুশা বা\/এ", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01913627645", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:30:06", "updated_at": "2018-11-28 17:30:06" },
+    { "id": "11", "company_id": "BFSA181128051104", "title_english": "Jhalmukh Restora", "title_bangla": "ঝালমুখ রেস্তোরাঁ", "location_english": "87,Dilkusha C\/A", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Motijheel", "location_bangla": "৮৭,দিলকুশা ,বা\/এ", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01709974005", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:32:04", "updated_at": "2018-11-28 17:32:04" },
+    { "id": "12", "company_id": "BFSA181128051133", "title_english": "Bangla Restaurant", "title_bangla": "বাংলা রেস্টুরেন্ট", "location_english": "28\/A-2 ,Toyenbi Circular Road", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Fokirerpul", "location_bangla": "২৮\/এ, টয়েনবাড়ি সার্কুলার রোট", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01726639777", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:33:33", "updated_at": "2018-11-28 17:33:33" },
+    { "id": "13", "company_id": "BFSA181128051101", "title_english": "Newmoon Hotel & Restaurant", "title_bangla": "নিউমুন হোটেল ও রেস্টুরেন্ট", "location_english": "194,Fokirapul", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Fokirerpul", "location_bangla": "১৯৪,ফকিরেরপুল", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01792364451", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:35:01", "updated_at": "2018-11-28 17:35:01" },
+    { "id": "14", "company_id": "BFSA181128051118", "title_english": "Radhuni Restora", "title_bangla": "রাঁধুনি রেস্তোরাঁ", "location_english": "13,Fokirapul", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Fokirerpul", "location_bangla": "১৩,ফকিরেরপুল", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01731117711", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:36:18", "updated_at": "2018-11-28 17:36:18" },
+    { "id": "15", "company_id": "BFSA181128051140", "title_english": "The Gawsia Hotel & Restaurant", "title_bangla": "গাউসিয়া হোটেল ও রেস্টুরেন্ট", "location_english": "6,Inner circular Road", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Fokirerpul", "location_bangla": "৬,ইনার সার্কুলার রোড", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01713626050", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:37:40", "updated_at": "2018-11-28 17:37:40" },
+    { "id": "16", "company_id": "BFSA181128051151", "title_english": "New Al Imam Hotel & Restaurant", "title_bangla": "নিউ আল ইমাম হোটেল ও রেস্টুরেন্ট", "location_english": "1,Fokirerpul", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Fokirerpul", "location_bangla": "১,ফকিরেরপুল", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01715374173", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:38:51", "updated_at": "2018-11-28 17:38:51" },
+    { "id": "17", "company_id": "BFSA181128051131", "title_english": "New Noakhali Restaurant", "title_bangla": "নিউ নোয়াখালি রেস্টুরেন্ট", "location_english": "24\/1,Bijoynogor", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Bijoy Nagar", "location_bangla": "২৪\/১, বিজয়নগর", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01726639777", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:41:31", "updated_at": "2018-11-28 17:41:31" },
+    { "id": "18", "company_id": "BFSA181128051137", "title_english": "Hotel Kosturi(PVT) Ltd.", "title_bangla": "হোটেল কস্তুরি ( প্রাঃ) লিঃ", "location_english": "161,Syed Nazrul Islam Shoroni", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Bijoy Nagar", "location_bangla": "১৬১, সৈয়দ নজরুল ইসলাম সরণী", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01819297455", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:42:37", "updated_at": "2018-11-28 17:42:37" },
+    { "id": "19", "company_id": "BFSA181128051112", "title_english": "GFC Restaurant", "title_bangla": "জিএফসি রেস্টুরেন্ট", "location_english": "213,Syed Nazrul Islam Shoroni", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Bijoy Nagar", "location_bangla": "২১৩, সৈয়দ নজরুল ইসলাম সরণী", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01814262197", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:44:12", "updated_at": "2018-11-28 17:44:12" },
+    { "id": "21", "company_id": "BFSA181128051157", "title_english": "Haji Restora", "title_bangla": "হাজী রেস্তোরাঁ", "location_english": "210-211,Syed Nazrul Islam Shoroni", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Bijoy Nagar", "location_bangla": "২১০-২১১, সৈয়দ নজরুল ইসলাম সরণি", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01945227823", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:47:57", "updated_at": "2018-11-28 17:47:57" },
+    { "id": "22", "company_id": "BFSA181128051102", "title_english": "New Zafran Restaurant", "title_bangla": "নিউ জাফরান রেস্টুরেন্ট", "location_english": "Sabbir Tower,3\/4,A,Puran Paltan", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Paltan", "location_bangla": "সাব্বির টাওয়ার ,৩\/৪,এ,পুরান পল্টন", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01711485821", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:50:02", "updated_at": "2018-11-28 17:50:02" },
+    { "id": "23", "company_id": "BFSA181128051117", "title_english": "Khana Basmati Hotel & Restaurant", "title_bangla": "খানা বাসমতি হোটেল ও রেস্টুরেন্ট", "location_english": "59,Puran Paltan", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Paltan", "location_bangla": "৫৯, পুরান পল্টন", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01814112662", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:51:17", "updated_at": "2018-11-28 17:51:17" },
+    { "id": "24", "company_id": "BFSA181128051123", "title_english": "New Shohag Hotel & Restaurant", "title_bangla": "নিউ সোহাগ হোটেল ও রেস্টুরেন্ট", "location_english": "59\/1,Puran Paltan", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Paltan", "location_bangla": "৫৯\/১,পুরান পল্টন", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01972220672", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:52:23", "updated_at": "2018-11-28 17:52:23" },
+    { "id": "26", "company_id": "BFSA181128051130", "title_english": "Bismillah Food Zone", "title_bangla": "বিসমিল্লাহ ফুড জোন", "location_english": "B.K. Tower,54,Puran Paltan", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Paltan", "location_bangla": "বি কে টাওয়ার, ৫৪, পুরান পল্টন", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": null, "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:55:30", "updated_at": "2018-11-28 17:55:30" },
+    { "id": "27", "company_id": "BFSA181128051147", "title_english": "New Dhanshiri Restora", "title_bangla": "নিউ ধানসিঁড়ি রেস্তোরাঁ", "location_english": "14,Puran Paltan", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Paltan", "location_bangla": "১৪,পুরান পল্টন", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01919647606", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:56:47", "updated_at": "2018-11-28 17:56:47" },
+    { "id": "28", "company_id": "BFSA181128051146", "title_english": "Bhoj(Banglar Shaad) Restora", "title_bangla": "ভোজ ( বাংলার স্বাদ) রেস্তোরাঁ", "location_english": "54,Puran Paltan", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Paltan", "location_bangla": "৫৪,পুরান পল্টন", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": null, "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01711220756", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 17:57:46", "updated_at": "2018-11-28 17:57:46" },
+    { "id": "30", "company_id": "BFSA181128061106", "title_english": "Boishakhi Restaurant", "title_bangla": "বৈশাখী রেস্টুরেন্ট", "location_english": "17\/3,Topkhana Road,Dhaka", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Paltan", "location_bangla": "১৭৩,তোপখানা রোড, ঢাকা", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01674036337", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 18:00:06", "updated_at": "2018-11-28 18:00:06" },
+    { "id": "31", "company_id": "BFSA181128061134", "title_english": "Sugandha Foods", "title_bangla": "সুগন্ধা ফুডস", "location_english": "NBR Adjunct,Kakrail", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Paltan", "location_bangla": "এনবিআর সংলগ্ন", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01819140594", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 18:05:34", "updated_at": "2018-11-28 18:05:34" },
+    { "id": "32", "company_id": "BFSA181128061144", "title_english": "Kinnori Restaurant", "title_bangla": "কিন্নরী রেস্টুরেন্ট", "location_english": "NBR Adjunct,Kakrail", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Paltan", "location_bangla": "এনবিআর সংলগ্ন", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01711590146", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 18:06:44", "updated_at": "2018-11-28 18:06:44" },
+    { "id": "33", "company_id": "BFSA181128061142", "title_english": "Bagicha Restora", "title_bangla": "বাগিচা রেস্তোরাঁ", "location_english": "NBR Adjunct,Kakrail", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Paltan", "location_bangla": "এনবিআর সংলগ্ন", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01039378723", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 18:07:42", "updated_at": "2018-11-28 18:07:42" },
+    { "id": "34", "company_id": "BFSA181128061123", "title_english": "Enjoy Restaurant", "title_bangla": "এনজয় রেস্টুরেন্ট", "location_english": "345,Shegun Bagicha", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": null, "location_bangla": "৩৪৫,সেগুন বাগিচা", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": null, "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 18:09:23", "updated_at": "2018-11-28 18:09:23" },
+    { "id": "35", "company_id": "BFSA181128061117", "title_english": "Bipasha Restora", "title_bangla": "বিপাশা রেস্তোরাঁ", "location_english": "47,Kakrail", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": null, "location_bangla": "৪৭,কাকরাইল", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01718095801", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 18:10:17", "updated_at": "2018-11-28 18:10:17" },
+    { "id": "36", "company_id": "BFSA181128061118", "title_english": "The Rajdhani Hotel & Restaurant", "title_bangla": "দি রাজধানী হোটেল ও রেস্টুরেন্ট", "location_english": "65,Bangabandhu Avenue", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": "Paltan", "location_bangla": "৬৫, বঙ্গবন্ধু এভিনিও", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01818278973", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 18:12:18", "updated_at": "2018-11-28 18:12:18" },
+    { "id": "37", "company_id": "BFSA181128061125", "title_english": "Raj Restaurant", "title_bangla": "রাজ রেস্টুরেন্ট", "location_english": "7,Bangabandhu Avenue", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": null, "location_bangla": "৭, বঙ্গবন্ধু এভিনিও", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01818278973", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 18:13:25", "updated_at": "2018-11-28 18:13:25" },
+    { "id": "38", "company_id": "BFSA181128061141", "title_english": "New Rajdhani Hotel & Restaurant", "title_bangla": "নিউ রাজধানী হোটেল ও রেস্টুরেন্ট", "location_english": "1\/1, Bangabandhu Avenue", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": null, "location_bangla": "১\/১ বঙ্গবন্ধু এভিনিও", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01818278973", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 18:14:41", "updated_at": "2018-11-28 18:14:41" },
+    { "id": "39", "company_id": "BFSA181128061133", "title_english": "Rajdhani Hotel & Restaurant", "title_bangla": "রাজধানী হোটেল ও রেস্টুরেন্ট", "location_english": "7,Bangabandhu Avenue", "division_english": "Dhaka", "city_english": "Dhaka", "thana_upazila_english": null, "location_bangla": "৭, বঙ্গবন্ধু এভিনিও", "division_bangla": null, "city_bangla": null, "thana_upazila_bangla": null, "zip_code": "1000", "latitude": null, "longitude": null, "owner_name": null, "owner_contact_number": "01724176716", "status": "1", "added_by": "1", "updated_by": null, "created_at": "2018-11-28 18:15:33", "updated_at": "2018-11-28 18:15:33" }
 ]);
 //# sourceMappingURL=restaurants.js.map
 
@@ -834,7 +770,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  The world is your oyster.\n  <p>\n    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.\n  </p>\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="body">\n  The world is your oyster.\n  <p>\n    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.\n  </p>\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
     ], HomePage);
@@ -908,7 +844,7 @@ var RestaurantDetailsPage = /** @class */ (function () {
     };
     RestaurantDetailsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-restaurant-details',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\restaurant-details\restaurant-details.html"*/'<!--\n  Generated template for the RestaurantDetailsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Food Company Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding >\n          <ion-card>\n\n            <ion-card-title text-center>\n              {{restaurant.title_english}}\n            </ion-card-title>\n\n            <img src="https://www.joc.com/sites/default/files/field_feature_image/KFC_0.png"/>\n\n            <ion-card-content>\n<i class = "icon icon ion-happy-outline"></i>\n              <ion-label text-center="" color="primary">Location:  {{restaurant.location_english}}</ion-label>\n\n              <ion-label text-center="" color="primary">Company ID:  {{restaurant.restaurant_id}}</ion-label>\n\n              <ion-label text-center="" color="primary">Category: {{restaurant.current_category.toUpperCase()}}</ion-label>\n\n              <ion-label text-center="" color="primary">Last Inspection: {{restaurant.last_inspection_date}}</ion-label>\n\n\n             \n\n<ion-row radio-group  [(ngModel)]="something"> \n  <ion-col>\n  <b>Rating:  </b>\n  </ion-col>\n  <ion-col>\n         <ion-item>\n            <ion-label>A+</ion-label>\n            <ion-radio mode="md" item-left value="A+"></ion-radio>\n       </ion-item>\n     </ion-col>\n    <ion-col>\n         <ion-item>\n            <ion-label>A</ion-label>\n            <ion-radio mode="md" item-left value="A"></ion-radio>\n       </ion-item>\n     </ion-col>\n\n    <ion-col>\n        <ion-item>\n            <ion-label>B</ion-label>\n            <ion-radio mode="md" item-left value="B"></ion-radio>\n       </ion-item>\n    </ion-col>\n\n    <ion-col>\n        <ion-item>\n            <ion-label>C</ion-label>\n            <ion-radio mode="md" item-left value="C"></ion-radio>\n       </ion-item>\n    </ion-col>\n\n</ion-row>\n\n\n              <button ion-button color="primary" block (click)="showPrompt()">Comment</button>\n \n\n            </ion-card-content>\n\n\n\n\n          </ion-card>\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\restaurant-details\restaurant-details.html"*/,
+            selector: 'page-restaurant-details',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\restaurant-details\restaurant-details.html"*/'<!--\n  Generated template for the RestaurantDetailsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Food Company Details</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding class="body">\n          <ion-card>\n\n            <ion-card-title text-center>\n              {{restaurant.title_english}}\n            </ion-card-title>\n\n            <img src="https://www.joc.com/sites/default/files/field_feature_image/KFC_0.png"/>\n\n            <ion-card-content>\n<i class = "icon icon ion-happy-outline"></i>\n              <ion-label text-center="" color="primary">Location:  {{restaurant.location_english}}</ion-label>\n\n              <ion-label text-center="" color="primary">Company ID:  {{restaurant.company_id}}</ion-label>\n\n              <ion-label text-center="" color="primary">Category: {{restaurant.current_category}}</ion-label>\n\n              <ion-label text-center="" color="primary">Last Inspection: {{restaurant.last_inspection_date}}</ion-label>\n\n\n             \n\n<ion-row radio-group  [(ngModel)]="something"> \n  <ion-col>\n  <b>Rating:  </b>\n  </ion-col>\n  <ion-col>\n         <ion-item>\n            <ion-label>A+</ion-label>\n            <ion-radio mode="md" item-left value="A+"></ion-radio>\n       </ion-item>\n     </ion-col>\n    <ion-col>\n         <ion-item>\n            <ion-label>A</ion-label>\n            <ion-radio mode="md" item-left value="A"></ion-radio>\n       </ion-item>\n     </ion-col>\n\n    <ion-col>\n        <ion-item>\n            <ion-label>B</ion-label>\n            <ion-radio mode="md" item-left value="B"></ion-radio>\n       </ion-item>\n    </ion-col>\n\n    <ion-col>\n        <ion-item>\n            <ion-label>C</ion-label>\n            <ion-radio mode="md" item-left value="C"></ion-radio>\n       </ion-item>\n    </ion-col>\n\n</ion-row>\n\n\n              <button ion-button color="primary" block (click)="showPrompt()">Comment</button>\n \n\n            </ion-card-content>\n\n\n\n\n          </ion-card>\n</ion-content>\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\restaurant-details\restaurant-details.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], RestaurantDetailsPage);
@@ -952,15 +888,15 @@ var RestaurantProvider = /** @class */ (function () {
     RestaurantProvider.prototype.searchRestaurantbyNameorId = function (keyWord) {
         return new Promise(function (resolve) {
             resolve(__WEBPACK_IMPORTED_MODULE_2__pages_data_restaurants__["a" /* default */].filter(function (u) { return u.title_english.toLowerCase().includes(keyWord.toLowerCase()) ||
-                u.title_bangla.toLowerCase().includes(keyWord.toLowerCase()) ||
-                u.restaurant_id.includes(keyWord) ||
+                u.title_bangla.includes(keyWord.toLowerCase()) ||
+                u.company_id.includes(keyWord) ||
                 u.location_english.toLowerCase().includes(keyWord.toLowerCase()) ||
-                u.location_bangla.toLowerCase().includes(keyWord.toLowerCase()); }));
+                u.location_bangla.includes(keyWord); }));
         });
     };
     RestaurantProvider.prototype.searchRestaurantbyId = function (restaurantId) {
         return new Promise(function (resolve) {
-            resolve(__WEBPACK_IMPORTED_MODULE_2__pages_data_restaurants__["a" /* default */].find(function (u) { return u.restaurant_id == restaurantId; }));
+            resolve(__WEBPACK_IMPORTED_MODULE_2__pages_data_restaurants__["a" /* default */].find(function (u) { return u.company_id == restaurantId; }));
         });
     };
     RestaurantProvider = __decorate([
@@ -1018,7 +954,7 @@ var LoginPage = /** @class */ (function () {
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\login\login.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Login</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <ion-list padding>\n\n    <ion-item>\n      <ion-label>Email</ion-label>\n      <ion-input type="email"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Password</ion-label>\n      <ion-input type="password"></ion-input>\n    </ion-item>\n\n  </ion-list>\n\n  <ion-row>\n    <ion-col text-center>\n      <button ion-button full (click)="onGoToTabsPage()">Log in</button>\n    </ion-col>\n  </ion-row>\n\n\n  <ion-row padding>\n    <ion-col text-center>\n      <button (click)="onGoToSignUp()" ion-button clear>Create an account</button>\n    </ion-col>\n  </ion-row>\n\n</ion-content>\n\n\n\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\login\login.html"*/,
+            selector: 'page-login',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\login\login.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Login</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n<ion-content padding class="body">\n\n  <ion-list padding>\n\n    <ion-item>\n      <ion-label>Email</ion-label>\n      <ion-input type="email"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Password</ion-label>\n      <ion-input type="password"></ion-input>\n    </ion-item>\n\n  </ion-list>\n\n  <ion-row>\n    <ion-col text-center>\n      <button ion-button full (click)="onGoToTabsPage()">Log in</button>\n    </ion-col>\n  </ion-row>\n\n\n  <ion-row padding>\n    <ion-col text-center>\n      <button (click)="onGoToSignUp()" ion-button clear>Create an account</button>\n    </ion-col>\n  </ion-row>\n\n</ion-content>\n\n\n\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\login\login.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], LoginPage);
@@ -1068,7 +1004,7 @@ var SignupPage = /** @class */ (function () {
     };
     SignupPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-signup',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\signup\signup.html"*/'<!--\n  Generated template for the SignupPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Sign Up</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-list padding>\n\n    <ion-item>\n      <ion-label>Name</ion-label>\n      <ion-input type="text"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Email</ion-label>\n      <ion-input type="email"></ion-input>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-label>Password</ion-label>\n      <ion-input type="password"></ion-input>\n    </ion-item>\n\n  </ion-list>\n\n  <ion-row >\n    <ion-col text-center>\n      <button ion-button full>Sign Up</button>\n    </ion-col>\n  </ion-row>\n\n\n  <ion-row padding>\n    <ion-col text-center>\n      <button (click)="onGoToLogin()" ion-button clear>Back to Login</button>\n    </ion-col>\n  </ion-row>\n\n\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\signup\signup.html"*/,
+            selector: 'page-signup',template:/*ion-inline-start:"E:\_Github\safefood_app\bfsa\src\pages\signup\signup.html"*/'<!--\n  Generated template for the SignupPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-buttons>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Sign Up</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="body">\n\n  <ion-list padding>\n\n    <ion-item>\n      <ion-label>Name</ion-label>\n      <ion-input type="text"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Email</ion-label>\n      <ion-input type="email"></ion-input>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-label>Password</ion-label>\n      <ion-input type="password"></ion-input>\n    </ion-item>\n\n  </ion-list>\n\n  <ion-row >\n    <ion-col text-center>\n      <button ion-button full>Sign Up</button>\n    </ion-col>\n  </ion-row>\n\n\n  <ion-row padding>\n    <ion-col text-center>\n      <button (click)="onGoToLogin()" ion-button clear>Back to Login</button>\n    </ion-col>\n  </ion-row>\n\n\n'/*ion-inline-end:"E:\_Github\safefood_app\bfsa\src\pages\signup\signup.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], SignupPage);
@@ -1085,8 +1021,8 @@ var SignupPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__search_search__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nearby_nearby__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__search_search__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nearby_nearby__ = __webpack_require__(111);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);

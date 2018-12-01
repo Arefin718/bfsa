@@ -21,18 +21,18 @@
 
 
 
-<ion-content padding>
+<ion-content padding class="body">
 
   <ion-list>
 
-    <button ion-item *ngFor="let rest of nearbyRestaurants" (click)="onGoToRestaurantDetails(rest.restaurant_id)">
+    <button ion-item *ngFor="let rest of nearbyRestaurants" (click)="onGoToRestaurantDetails(rest.company_id)">
       <ion-thumbnail item-start>
         <img src="https://cbsnews3.cbsistatic.com/hub/i/r/2018/03/07/481a9418-c3c8-492e-8e92-d1e6ec821075/crop/316x284+89+74/resize/270x/47b7fc47127620982695ad69887be491/sonic-burger.jpg">
       </ion-thumbnail>
       <h2>{{rest.title_english}}</h2>
       <p>Location: {{rest.location_english}}</p>
 
-
+<!--
       <li item-end  *ngIf="rest.current_category.toLowerCase()== 'a+'">
         <ion-icon color="secondary" ios="" md="">A+</ion-icon>
       </li>
@@ -48,7 +48,7 @@
       <li item-end  *ngIf="rest.current_category.toLowerCase()== 'c'">
         <ion-icon color="danger" ios="" md="">C</ion-icon>
       </li>
-
+-->
 
     </button>
 

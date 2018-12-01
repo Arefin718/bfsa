@@ -1,5 +1,5 @@
-<preference name="FadeSplashScreenDuration" value="300" />
-<preference name="SplashScreenDelay" value="10000" />
-<preference name="AutoHideSplashScreen" value="false" />
-<preference name="FadeSplashScreen" value="true" />
-<preference name="ShowSplashScreen" value="true" />
+ ||
+	    u.title_bangla.includes(keyWord.toLowerCase()) ||
+		 u.company_id.includes(keyWord)||
+		 u.location_english.toLowerCase().includes(keyWord.toLowerCase())||
+		 u.location_bangla.includes(keyWord)
